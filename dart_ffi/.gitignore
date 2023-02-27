@@ -1,0 +1,18 @@
+# Files and directories dart
+.dart_tool/
+.packages
+build/
+pubspec.lock
+dart_ffi.iml
+/.metadata
+/.flutter-plugins
+/.flutter-plugins-dependencies
+*.g.dart
+
+# Files generated during tests
+.test_coverage.dart
+coverage/
+.test_runner.dart
+
+# Android studio and IntelliJ
+.idea

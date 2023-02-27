@@ -1,0 +1,5 @@
+# Android studio and IntelliJ
+.idea
+
+# Build dir
+/build/

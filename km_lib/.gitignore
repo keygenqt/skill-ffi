@@ -1,0 +1,8 @@
+# Android studio and IntelliJ
+.idea
+
+# Build dir
+/build/
+
+# Temp files
+/.gradle/

@@ -1,0 +1,11 @@
+# Android studio and IntelliJ
+.idea
+
+# Build dir
+/build/
+
+# Temp files
+/.gradle/
+
+# https://github.com/openjdk/jextract
+/jextract/

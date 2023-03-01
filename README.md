@@ -19,6 +19,7 @@ char *generateUUID();
 * Dart ✔️
 * Python ✔️
 * PHP ✔️
+* JS ✔️
 * ? ⇦
 
 #### Output

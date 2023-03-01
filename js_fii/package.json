@@ -1,0 +1,7 @@
+{
+  "name": "js_ffi",
+  "version": "0.0.1",
+  "dependencies": {
+    "ffi-napi": "^4.0.3"
+  }
+}

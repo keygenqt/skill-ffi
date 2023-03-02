@@ -19,7 +19,7 @@ Difficulty rating: 1-5. Less is better.
 
 * ✔ (4) Java/Kotlin (Generation of what is what is not)
 * ✔ (1) Dart (It's just top)
-* ✔ (1) Python ✔ (ctypesgen is awesome)
+* ✔ (1) Python (ctypesgen is awesome)
 * ✔ (1) PHP (ircmaxell/ffime is awesome)
 * ✔ (1) JS (I did not find the generator, but ffi-napi did well without it)
 * ☹ (5) Swift (Everything is easier with xcode)

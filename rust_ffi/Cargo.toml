@@ -1,0 +1,10 @@
+[package]
+name = "rust_ffi"
+version = "0.0.1"
+authors = ["Vitaliy Zarubin <keygenqt@gmail.com>"]
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.64.0"

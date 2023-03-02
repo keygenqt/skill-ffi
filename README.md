@@ -1,7 +1,7 @@
 FFI (Foreign function interface)
 ===================
 
-Launch methods from the C library in different languages
+Launch methods from the C library in different languages on Linux
 
 #### library.h
 
@@ -13,13 +13,16 @@ int getRandom(int from, int to);
 char *generateUUID();
 ```
 
+Difficulty rating: 1-5. Less is better.
+
 #### Languages
 
-* Java ✔️
-* Dart ✔️
-* Python ✔️
-* PHP ✔️
-* JS ✔️
+* ✔ (4) Java/Kotlin (Generation of what is what is not)
+* ✔ (1) Dart (It's just top)
+* ✔ (1) Python ✔ (ctypesgen is awesome)
+* ✔ (1) PHP (ircmaxell/ffime is awesome)
+* ✔ (1) JS (I did not find the generator, but ffi-napi did well without it)
+* ☹ (5) Swift (Everything is easier with xcode)
 * ? ⇦
 
 #### Output

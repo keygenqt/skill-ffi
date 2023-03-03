@@ -1,7 +1,8 @@
 FFI (Foreign function interface)
 ===================
 
-Launch methods from the C library in different languages on Linux
+A simple example of creating your [library](c_lib) on C and using it in different languages through tools proposed by the language.
+Everything was launched on Ubuntu 22.04.
 
 #### library.h
 
@@ -13,18 +14,16 @@ int getRandom(int from, int to);
 char *generateUUID();
 ```
 
-Difficulty rating: 1-5. Less is better.
+The rating of the complexity of use 1-5. In My Humble Opinion. Less is better.
 
 #### Languages
 
-* ✔ (4) Java/Kotlin (Generation of what is what is not)
-* ✔ (1) Dart (It's just top)
-* ✔ (1) Python (ctypesgen is awesome)
-* ✔ (1) PHP (ircmaxell/ffime is awesome)
-* ✔ (1) JS (I did not find the generator, but ffi-napi did well without it)
-* ☹ (5) Swift (Everything is easier with xcode)
-* ✔ (1) Rust (bindgen the best)
-* ? ⇦
+* (4) [Java](java_ffi) ([jextract](https://github.com/openjdk/jextract))
+* (1) [Dart](dart_ffi) ([ffigen](https://pub.dev/packages/ffigen))
+* (1) [Python](python_ffi) ([ctypesgen](https://github.com/ctypesgen/ctypesgen))
+* (1) [PHP](php_ffi) ([FFIMe](https://github.com/ircmaxell/FFIMe))
+* (1) [JS](js_fii) ([ffi-napi](https://www.npmjs.com/package/ffi-napi))
+* (1) [Rust](rust_ffi) ([bindgen](https://github.com/rust-lang/rust-bindgen))
 
 #### Output
 
@@ -35,6 +34,10 @@ Difficulty rating: 1-5. Less is better.
 | generateUUID():  b3066d6d-6ed3-4896-30b8-b68742c06c6c
 | -----------------------------------------------------
 ```
+
+#### Little bonus
+
+An example of the assembly of the library on Kotlin Multiplatform ([km_lib](km_lib))
 
 ### License
 

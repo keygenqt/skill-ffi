@@ -5,7 +5,7 @@ import kotlinx.uuid.generateUUID
 import kotlin.random.Random
 
 // kotlin
-fun random(from: Int, to: Int): Int {
+fun getRandom(from: Int, to: Int): Int {
     return (from..to).random()
 }
 
